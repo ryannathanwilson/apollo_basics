@@ -95,9 +95,9 @@ function App() {
 			<h2>My first Apollo app 🚀</h2>
 			{/* <ExchangeRates /> */}
 			<Dogs>
-				<DogPhoto breed={props.breed} />
 
 			</Dogs>
+				<DogPhoto breed={selectedDog} />
 		</div>
 	);
 }
